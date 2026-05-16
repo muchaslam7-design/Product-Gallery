@@ -3,14 +3,6 @@ import React from "react";
 const Portfolio = () => {
   const projects = [
     {
-      title: "Premium Landing Page",
-      category: "Web Architecture & UI",
-      desc: "Designed and developed a high-fidelity, fully responsive landing page interface. Focused on clean semantic layout structures, seamless typography, modern grid alignments, and optimized asset loading for performance metrics.",
-      tech: ["HTML5", "CSS3", "JavaScript", "Tailwind CSS"],
-      github: "https://github.com/muchaslam7-design/premium-landing-page",
-      live: "https://premium-landing-page-iekj.vercel.app/",
-    },
-    {
       title: "Solemate",
       category: "E-Commerce Platform",
       desc: "A premium shoe retail application featuring custom grid-based product inventory management, integrated React Hook Form, responsive modals, dynamic search with interactive map logistics, custom cursors, and an engaging video background landing page.",
@@ -41,6 +33,14 @@ const Portfolio = () => {
       tech: ["React.js", "Tailwind CSS", "FakeStore API", "JSON"],
       github: "https://github.com/muchaslam7-design",
       live: "https://product-gallery-iota.vercel.app/",
+    },
+    {
+      title: "Premium Landing Page",
+      category: "Web Architecture & UI",
+      desc: "Designed and developed a high-fidelity, fully responsive landing page interface. Focused on clean semantic layout structures, seamless typography, modern grid alignments, and optimized asset loading for performance metrics.",
+      tech: ["HTML5", "CSS3", "JavaScript", "Tailwind CSS"],
+      github: "https://github.com/muchaslam7-design/premium-landing-page",
+      live: "https://premium-landing-page-iekj.vercel.app/",
     },
   ];
 
